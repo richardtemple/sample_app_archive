@@ -12,6 +12,7 @@ group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.10.0'
   gem 'guard-rspec', '0.5.5'
+  gem 'growl'
 end
 
 # Gems used only for assets and not required
@@ -28,10 +29,9 @@ group :test do
   gem 'cucumber-rails', '1.2.1', :require => false
   gem 'database_cleaner', '0.7.0'
   gem 'guard-spork', '0.3.2'  
-  gem 'spork', '0.9.0'
+  gem 'spork', '0.9.2'
   gem 'launchy', '2.1.0'
-  # gem 'rb-fsevent', '0.9.1', :require => false
-  # gem 'growl', '1.0.3'
+  gem 'rb-fsevent', '0.9.1', :require => false
 end
 
 group :production do
